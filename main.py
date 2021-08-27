@@ -18,8 +18,17 @@ def save_graph(graph: dict):
         graph = {word: sorted(list(graph[word])) for word in sorted(list(graph.keys()))}
         return json.dump(graph, fd, indent=4, ensure_ascii=False)
 
+def canonized(word: str) -> str:
+    word = word.lower()
+    if word.startswith("s'"):
+        word = word[2:]
+    elif word.startswith("se "):
+        word = word[3:]
+    return word
+
 def get_words(word: str, graph: dict) -> list[str]:
     new = ()
+    word = canonized(word)
     if word not in graph:
         ans = requests.get('http://www.synonymo.fr/synonyme/' + word)
         ans.encoding = 'utf8'
@@ -29,7 +38,7 @@ def get_words(word: str, graph: dict) -> list[str]:
         h1s = tuple(elem for elem in soup.find_all('h1'))
         for h1 in h1s:
             if h1.text.startswith('Synonymes de'):
-                assocs = set(elem.text for elem in h1.find_next_sibling().find_all(attrs={'class': 'word'}))
+                assocs = set(canonized(elem.text) for elem in h1.find_next_sibling().find_all(attrs={'class': 'word'}))
                 new = assocs - set(itertools.chain.from_iterable(graph.values()))
                 graph[word] = list(assocs)
                 break
