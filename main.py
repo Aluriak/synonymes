@@ -74,21 +74,27 @@ def enrich_graph(g: dict, force_user_prompt: bool=False):
         new_word = next(iter(unexplored_words))
     assocs, new_words = get_words(new_word, g)
     print('\r' + f"#new words={len(new_words): 3d}\t\t#unexplored={len(unexplored_words)}\t\t#def words={len(g)}  ({new_word})                ", end='', flush=True)
+    for word in new_words:
+        assocs, new_words = get_words(word, g)
+        print('\r' + f"#new words={len(new_words): 3d}\t\t#unexplored={len(unexplored_words)}\t\t#def words={len(g)}  ({new_word}:{word})                ", end='', flush=True)
 
 
-g = load_graph()
-try:
-    while True:
-        enrich_graph(g)
-except KeyboardInterrupt:  # start again, but with user prompt
+if __name__ == '__main__':
+    g = load_graph()
     try:
         while True:
-            enrich_graph(g, force_user_prompt=True)
-    except:
+            enrich_graph(g)
+    except KeyboardInterrupt:  # start again, but with user prompt
+        try:
+            while True:
+                enrich_graph(g, force_user_prompt=True)
+        except (KeyboardInterrupt, Exception) as err:
+            print('ERR', repr(err))
+            pass
+    except (KeyboardInterrupt, Exception) as err:  # don't do anything else
+        print('ERR', repr(err))
         pass
-except:  # don't do anything else
-    pass
-save_graph(g)
-complete_graph(g)
-stats(g)
-print('done')
+    save_graph(g)
+    complete_graph(g)
+    stats(g)
+    print('done')

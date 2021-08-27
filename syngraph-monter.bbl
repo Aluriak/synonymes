@@ -1,0 +1,572 @@
+# CONNECTED COMPONENT 1
+NODE	rehausser
+NODE	préparer
+NODE	engouffrer
+NODE	réussir
+NODE	réaliser
+NODE	redresser
+NODE	accoupler
+NODE	bâtir
+NODE	enchatonner
+NODE	échapper
+NODE	pourvoir
+NODE	enfourcher
+NODE	ascensionner
+NODE	grimper
+NODE	arriver
+NODE	procurer
+NODE	mijoter
+NODE	surélever
+NODE	construire
+NODE	débourrer
+NODE	encastrer
+NODE	monter
+NODE	accentuer
+NODE	chevaucher
+NODE	croître
+NODE	surhausser
+NODE	sertir
+NODE	baiser
+NODE	dévaler
+NODE	atteindre
+NODE	jouer
+NODE	revaloriser
+NODE	machiner
+NODE	mitonner
+NODE	établir
+NODE	appareiller
+NODE	installer
+NODE	échafauder
+NODE	amplifier
+NODE	incruster
+NODE	élever
+NODE	renchérir
+NODE	augmenter
+NODE	couvrir
+NODE	tisser
+NODE	exhausser
+NODE	lever
+NODE	relever
+NODE	arborer
+NODE	nouer
+NODE	éclater
+NODE	revenir
+NODE	ériger
+NODE	aviver
+NODE	porter
+NODE	forcer
+NODE	servir
+NODE	envoler
+NODE	redoubler
+NODE	majorer
+NODE	escalader
+NODE	aller
+NODE	guinder
+NODE	percer
+NODE	parvenir
+NODE	enlever
+NODE	doubler
+NODE	faire
+NODE	ajuster
+NODE	progresser
+NODE	lutter
+NODE	prendre
+NODE	grossir
+NODE	tresser
+NODE	gravir
+NODE	ourdir
+NODE	unir
+NODE	intensifier
+NODE	hausser
+NODE	manigancer
+NODE	marier
+NODE	constituer
+NODE	remonter
+NODE	exciter
+NODE	organiser
+NODE	copuler
+NODE	tramer
+NODE	coïter
+NODE	entrer
+NODE	franchir
+NODE	planter
+NODE	assembler
+NODE	disposer
+NODE	dresser
+NODE	affluer
+NODE	accroître
+NODE	grandir
+NODE	percher
+NODE	créer
+NODE	combiner
+NODE	charger
+NODE	édifier
+NODE	soulever
+NODE	saillir
+NODE	hisser
+NODE	embarquer
+NODE	chatonner
+NODE	coudre
+NODE	enchâsser
+SET	PWRN-accentuer-1-1	1.0
+SET	PWRN-accentuer-2-1	1.0
+SET	PWRN-accentuer-2-2	1.0
+SET	PWRN-accentuer-3-1	1.0
+SET	PWRN-accentuer-4-1	1.0
+SET	PWRN-accentuer-5-1	1.0
+SET	PWRN-accentuer-5-2	1.0
+SET	PWRN-accentuer-6-2	1.0
+SET	PWRN-accentuer-6-1	1.0
+SET	PWRN-accentuer-7-1	1.0
+SET	PWRN-accentuer-8-2	1.0
+SET	PWRN-accentuer-8-1	1.0
+SET	PWRN-accentuer-9-1	1.0
+SET	PWRN-accentuer-10-1	1.0
+SET	PWRN-accentuer-10-2	1.0
+SET	PWRN-accentuer-11-1	1.0
+SET	PWRN-accentuer-12-1	1.0
+SET	PWRN-accentuer-13-1	1.0
+SET	PWRN-accentuer-14-1	1.0
+SET	PWRN-accentuer-15-1	1.0
+SET	PWRN-accentuer-16-1	1.0
+SET	PWRN-accentuer-16-2	1.0
+SET	PWRN-accentuer-17-1	1.0
+SET	PWRN-accentuer-18-1	1.0
+SET	PWRN-accentuer-19-1	1.0
+SET	PWRN-accentuer-20-1	1.0
+SET	PWRN-accentuer-21-1	1.0
+SET	PWRN-accentuer-23-1	1.0
+SET	PWRN-accentuer-24-1	1.0
+SET	PWRN-accentuer-24-2	1.0
+SET	PWRN-accentuer-25-1	1.0
+SET	PWRN-accentuer-25-2	1.0
+SET	PWRN-accentuer-26-1	1.0
+SET	PWRN-accentuer-26-2	1.0
+SET	PWRN-accentuer-27-1	1.0
+SET	PWRN-accentuer-28-1	1.0
+SET	PWRN-accentuer-29-1	1.0
+SET	PWRN-accentuer-31-1	1.0
+SET	PWRN-accentuer-32-1	1.0
+SET	PWRN-accentuer-33-1	1.0
+SET	PWRN-accentuer-36-1	1.0
+SET	PWRN-accentuer-37-1	1.0
+SET	PWRN-accentuer-38-1	1.0
+SET	PWRN-accentuer-39-1	1.0
+SET	PWRN-accentuer-40-1	1.0
+SET	PWRN-accentuer-41-1	1.0
+SET	PWRN-accentuer-42-1	1.0
+SET	PWRN-accentuer-43-1	1.0
+SET	PWRN-accentuer-44-1	1.0
+SET	PWRN-accentuer-45-1	1.0
+SET	PWRN-accentuer-46-1	1.0
+SET	PWRN-accentuer-48-1	1.0
+SET	PWRN-accentuer-49-1	1.0
+SET	PWRN-accentuer-50-1	1.0
+SET	PWRN-accentuer-52-1	1.0
+SET	PWRN-accentuer-55-1	1.0
+IN	PWRN-accentuer-24-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-31-1	PWRN-accentuer-6-2
+IN	PWRN-accentuer-13-1	PWRN-accentuer-2-1
+IN	PWRN-accentuer-27-1	PWRN-accentuer-9-1
+IN	PWRN-accentuer-50-1	PWRN-accentuer-10-1
+IN	PWRN-accentuer-39-1	PWRN-accentuer-7-1
+IN	PWRN-accentuer-33-1	PWRN-accentuer-20-1
+IN	PWRN-accentuer-37-1	PWRN-accentuer-28-1
+IN	PWRN-accentuer-24-2	PWRN-accentuer-11-1
+IN	PWRN-accentuer-28-1	PWRN-accentuer-19-1
+IN	PWRN-accentuer-4-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-40-1	PWRN-accentuer-14-1
+IN	PWRN-accentuer-29-1	PWRN-accentuer-11-1
+IN	PWRN-accentuer-44-1	PWRN-accentuer-29-1
+IN	PWRN-accentuer-46-1	PWRN-accentuer-15-1
+IN	PWRN-accentuer-17-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-43-1	PWRN-accentuer-36-1
+IN	PWRN-accentuer-15-1	PWRN-accentuer-18-1
+IN	PWRN-accentuer-8-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-6-1	PWRN-accentuer-7-1
+IN	PWRN-accentuer-16-2	PWRN-accentuer-7-1
+IN	PWRN-accentuer-38-1	PWRN-accentuer-32-1
+IN	PWRN-accentuer-5-2	PWRN-accentuer-2-1
+IN	PWRN-accentuer-41-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-45-1	PWRN-accentuer-17-1
+IN	PWRN-accentuer-8-2	PWRN-accentuer-5-1
+IN	PWRN-accentuer-18-1	PWRN-accentuer-8-1
+IN	PWRN-accentuer-23-1	PWRN-accentuer-7-1
+IN	PWRN-accentuer-48-1	PWRN-accentuer-3-1
+IN	PWRN-accentuer-52-1	PWRN-accentuer-16-1
+IN	PWRN-accentuer-3-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-16-1	PWRN-accentuer-17-1
+IN	PWRN-accentuer-25-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-14-1	PWRN-accentuer-4-1
+IN	PWRN-accentuer-26-2	PWRN-accentuer-10-2
+IN	PWRN-accentuer-36-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-26-1	PWRN-accentuer-21-1
+IN	PWRN-accentuer-5-1	PWRN-accentuer-2-1
+IN	PWRN-accentuer-12-1	PWRN-accentuer-3-1
+IN	PWRN-accentuer-19-1	PWRN-accentuer-5-1
+IN	PWRN-accentuer-2-2	PWRN-accentuer-1-1
+IN	PWRN-accentuer-25-2	PWRN-accentuer-9-1
+IN	PWRN-accentuer-2-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-6-2	PWRN-accentuer-1-1
+IN	PWRN-accentuer-10-1	PWRN-accentuer-14-1
+IN	PWRN-accentuer-7-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-21-1	PWRN-accentuer-12-1
+IN	PWRN-accentuer-49-1	PWRN-accentuer-27-1
+IN	PWRN-accentuer-42-1	PWRN-accentuer-2-1
+IN	PWRN-accentuer-9-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-32-1	PWRN-accentuer-23-1
+IN	PWRN-accentuer-11-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-55-1	PWRN-accentuer-1-1
+IN	PWRN-accentuer-20-1	PWRN-accentuer-13-1
+IN	PWRN-accentuer-10-2	PWRN-accentuer-1-1
+IN	échapper	PWRN-accentuer-1-1
+IN	pourvoir	PWRN-accentuer-1-1
+IN	enfourcher	PWRN-accentuer-1-1
+IN	débourrer	PWRN-accentuer-1-1
+IN	dévaler	PWRN-accentuer-1-1
+IN	mitonner	PWRN-accentuer-1-1
+IN	éclater	PWRN-accentuer-1-1
+IN	revenir	PWRN-accentuer-1-1
+IN	envoler	PWRN-accentuer-1-1
+IN	progresser	PWRN-accentuer-1-1
+IN	assembler	PWRN-accentuer-1-1
+IN	percher	PWRN-accentuer-1-1
+IN	parvenir	PWRN-accentuer-2-1
+IN	surélever	PWRN-accentuer-2-1
+IN	hausser	PWRN-accentuer-2-2
+IN	élever	PWRN-accentuer-2-2
+IN	constituer	PWRN-accentuer-4-1
+IN	hisser	PWRN-accentuer-5-1
+IN	exhausser	PWRN-accentuer-5-1
+IN	lever	PWRN-accentuer-5-2
+IN	relever	PWRN-accentuer-5-2
+IN	baiser	PWRN-accentuer-6-2
+IN	lutter	PWRN-accentuer-6-2
+IN	coïter	PWRN-accentuer-6-2
+IN	servir	PWRN-accentuer-6-2
+IN	accoupler	PWRN-accentuer-6-1
+IN	couvrir	PWRN-accentuer-6-1
+IN	jouer	PWRN-accentuer-7-1
+IN	mijoter	PWRN-accentuer-7-1
+IN	augmenter	PWRN-accentuer-8-2
+IN	grandir	PWRN-accentuer-8-2
+IN	croître	PWRN-accentuer-8-1
+IN	tresser	PWRN-accentuer-9-1
+IN	coudre	PWRN-accentuer-9-1
+IN	enchâsser	PWRN-accentuer-9-1
+IN	appareiller	PWRN-accentuer-9-1
+IN	édifier	PWRN-accentuer-10-1
+IN	ériger	PWRN-accentuer-10-2
+IN	arborer	PWRN-accentuer-11-1
+IN	nouer	PWRN-accentuer-12-1
+IN	tisser	PWRN-accentuer-12-1
+IN	accroître	PWRN-accentuer-13-1
+IN	surhausser	PWRN-accentuer-13-1
+IN	faire	PWRN-accentuer-14-1
+IN	renchérir	PWRN-accentuer-15-1
+IN	forcer	PWRN-accentuer-15-1
+IN	embarquer	PWRN-accentuer-16-1
+IN	prendre	PWRN-accentuer-16-2
+IN	arriver	PWRN-accentuer-16-2
+IN	redoubler	PWRN-accentuer-18-1
+IN	rehausser	PWRN-accentuer-19-1
+IN	revaloriser	PWRN-accentuer-20-1
+IN	combiner	PWRN-accentuer-21-1
+IN	ourdir	PWRN-accentuer-21-1
+IN	réaliser	PWRN-accentuer-23-1
+IN	ascensionner	PWRN-accentuer-24-1
+IN	gravir	PWRN-accentuer-24-1
+IN	grimper	PWRN-accentuer-24-2
+IN	escalader	PWRN-accentuer-24-2
+IN	chatonner	PWRN-accentuer-25-1
+IN	enchatonner	PWRN-accentuer-25-1
+IN	encastrer	PWRN-accentuer-25-2
+IN	sertir	PWRN-accentuer-25-2
+IN	manigancer	PWRN-accentuer-26-1
+IN	préparer	PWRN-accentuer-26-1
+IN	organiser	PWRN-accentuer-26-2
+IN	échafauder	PWRN-accentuer-26-2
+IN	marier	PWRN-accentuer-27-1
+IN	soulever	PWRN-accentuer-28-1
+IN	redresser	PWRN-accentuer-29-1
+IN	unir	PWRN-accentuer-31-1
+IN	copuler	PWRN-accentuer-31-1
+IN	saillir	PWRN-accentuer-31-1
+IN	réussir	PWRN-accentuer-32-1
+IN	majorer	PWRN-accentuer-33-1
+IN	intensifier	PWRN-accentuer-33-1
+IN	accentuer	PWRN-accentuer-33-1
+IN	incruster	PWRN-accentuer-36-1
+IN	remonter	PWRN-accentuer-37-1
+IN	dresser	PWRN-accentuer-37-1
+IN	percer	PWRN-accentuer-38-1
+IN	entrer	PWRN-accentuer-38-1
+IN	charger	PWRN-accentuer-39-1
+IN	procurer	PWRN-accentuer-39-1
+IN	bâtir	PWRN-accentuer-40-1
+IN	créer	PWRN-accentuer-40-1
+IN	chevaucher	PWRN-accentuer-41-1
+IN	franchir	PWRN-accentuer-41-1
+IN	guinder	PWRN-accentuer-42-1
+IN	porter	PWRN-accentuer-42-1
+IN	engouffrer	PWRN-accentuer-43-1
+IN	installer	PWRN-accentuer-43-1
+IN	planter	PWRN-accentuer-44-1
+IN	enlever	PWRN-accentuer-44-1
+IN	exciter	PWRN-accentuer-45-1
+IN	affluer	PWRN-accentuer-45-1
+IN	grossir	PWRN-accentuer-46-1
+IN	amplifier	PWRN-accentuer-46-1
+IN	machiner	PWRN-accentuer-48-1
+IN	tramer	PWRN-accentuer-48-1
+IN	disposer	PWRN-accentuer-49-1
+IN	ajuster	PWRN-accentuer-49-1
+IN	établir	PWRN-accentuer-50-1
+IN	construire	PWRN-accentuer-50-1
+IN	aller	PWRN-accentuer-52-1
+IN	atteindre	PWRN-accentuer-52-1
+IN	aviver	PWRN-accentuer-55-1
+IN	doubler	PWRN-accentuer-55-1
+EDGE	PWRN-accentuer-1-1	monter	1.0
+EDGE	PWRN-accentuer-2-1	PWRN-accentuer-2-2	1.0
+EDGE	PWRN-accentuer-3-1	PWRN-accentuer-3-1	1.0
+EDGE	PWRN-accentuer-4-1	PWRN-accentuer-4-1	1.0
+EDGE	PWRN-accentuer-5-1	PWRN-accentuer-5-2	1.0
+EDGE	PWRN-accentuer-6-1	PWRN-accentuer-6-2	1.0
+EDGE	PWRN-accentuer-7-1	faire	1.0
+EDGE	PWRN-accentuer-8-1	PWRN-accentuer-8-2	1.0
+EDGE	PWRN-accentuer-9-1	assembler	1.0
+EDGE	PWRN-accentuer-10-1	combiner	1.0
+EDGE	PWRN-accentuer-10-1	PWRN-accentuer-10-2	1.0
+EDGE	PWRN-accentuer-11-1	hisser	1.0
+EDGE	PWRN-accentuer-12-1	tresser	1.0
+EDGE	PWRN-accentuer-13-1	augmenter	1.0
+EDGE	PWRN-accentuer-14-1	élever	1.0
+EDGE	PWRN-accentuer-15-1	PWRN-accentuer-15-1	1.0
+EDGE	PWRN-accentuer-15-1	charger	1.0
+EDGE	PWRN-accentuer-16-1	PWRN-accentuer-16-2	1.0
+EDGE	PWRN-accentuer-17-1	porter	1.0
+EDGE	PWRN-accentuer-18-1	hausser	1.0
+EDGE	PWRN-accentuer-19-1	redresser	1.0
+EDGE	PWRN-accentuer-20-1	accroître	1.0
+EDGE	PWRN-accentuer-21-1	mijoter	1.0
+EDGE	PWRN-accentuer-23-1	arriver	1.0
+EDGE	PWRN-accentuer-24-1	PWRN-accentuer-24-2	1.0
+EDGE	PWRN-accentuer-25-1	PWRN-accentuer-25-2	1.0
+EDGE	PWRN-accentuer-26-1	PWRN-accentuer-26-2	1.0
+EDGE	PWRN-accentuer-27-1	combiner	1.0
+EDGE	PWRN-accentuer-27-1	établir	1.0
+EDGE	PWRN-accentuer-27-1	appareiller	1.0
+EDGE	PWRN-accentuer-28-1	exciter	1.0
+EDGE	PWRN-accentuer-29-1	lever	1.0
+EDGE	PWRN-accentuer-31-1	baiser	1.0
+EDGE	PWRN-accentuer-32-1	parvenir	1.0
+EDGE	PWRN-accentuer-33-1	amplifier	1.0
+EDGE	PWRN-accentuer-36-1	entrer	1.0
+EDGE	PWRN-accentuer-37-1	soulever	1.0
+EDGE	PWRN-accentuer-37-1	ajuster	1.0
+EDGE	PWRN-accentuer-38-1	forcer	1.0
+EDGE	PWRN-accentuer-39-1	pourvoir	1.0
+EDGE	PWRN-accentuer-39-1	prendre	1.0
+EDGE	PWRN-accentuer-40-1	ériger	1.0
+EDGE	PWRN-accentuer-41-1	couvrir	1.0
+EDGE	PWRN-accentuer-42-1	hisser	1.0
+EDGE	PWRN-accentuer-43-1	incruster	1.0
+EDGE	PWRN-accentuer-44-1	élever	1.0
+EDGE	PWRN-accentuer-45-1	augmenter	1.0
+EDGE	PWRN-accentuer-46-1	croître	1.0
+EDGE	PWRN-accentuer-46-1	accroître	1.0
+EDGE	PWRN-accentuer-8-2	rehausser	1.0
+EDGE	PWRN-accentuer-48-1	mijoter	1.0
+EDGE	PWRN-accentuer-49-1	organiser	1.0
+EDGE	PWRN-accentuer-50-1	dresser	1.0
+EDGE	PWRN-accentuer-52-1	élever	1.0
+EDGE	PWRN-accentuer-55-1	augmenter	1.0
+EDGE	incruster	sertir	1.0
+EDGE	redresser	relever	1.0
+EDGE	affluer	parvenir	1.0
+EDGE	aller	entrer	1.0
+EDGE	faire	lever	1.0
+EDGE	assembler	lever	1.0
+EDGE	dresser	préparer	1.0
+EDGE	amplifier	doubler	1.0
+EDGE	prendre	remonter	1.0
+EDGE	enfourcher	percer	1.0
+EDGE	dresser	installer	1.0
+EDGE	exciter	relever	1.0
+EDGE	dresser	faire	1.0
+EDGE	relever	surélever	1.0
+EDGE	assembler	construire	1.0
+EDGE	arriver	parvenir	1.0
+EDGE	rehausser	surélever	1.0
+EDGE	ajuster	disposer	1.0
+EDGE	doubler	redoubler	1.0
+EDGE	pourvoir	prendre	1.0
+EDGE	ajuster	nouer	1.0
+EDGE	combiner	organiser	1.0
+EDGE	hausser	élever	1.0
+EDGE	créer	organiser	1.0
+EDGE	croître	progresser	1.0
+EDGE	charger	disposer	1.0
+EDGE	couvrir	disposer	1.0
+EDGE	relever	revenir	1.0
+EDGE	disposer	prendre	1.0
+EDGE	arborer	élever	1.0
+EDGE	marier	unir	1.0
+EDGE	grimper	remonter	1.0
+EDGE	forcer	prendre	1.0
+EDGE	arriver	franchir	1.0
+EDGE	exhausser	surhausser	1.0
+EDGE	créer	porter	1.0
+EDGE	appareiller	unir	1.0
+EDGE	franchir	gravir	1.0
+EDGE	guinder	lever	1.0
+EDGE	installer	organiser	1.0
+EDGE	soulever	surhausser	1.0
+EDGE	arborer	planter	1.0
+EDGE	copuler	coïter	1.0
+EDGE	entrer	prendre	1.0
+EDGE	charger	constituer	1.0
+EDGE	faire	soulever	1.0
+EDGE	arborer	porter	1.0
+EDGE	augmenter	grandir	1.0
+EDGE	hausser	redresser	1.0
+EDGE	mijoter	mitonner	1.0
+EDGE	doubler	intensifier	1.0
+EDGE	construire	disposer	1.0
+EDGE	majorer	rehausser	1.0
+EDGE	procurer	soulever	1.0
+EDGE	entrer	planter	1.0
+EDGE	baiser	doubler	1.0
+EDGE	organiser	tramer	1.0
+EDGE	assembler	constituer	1.0
+EDGE	prendre	servir	1.0
+EDGE	majorer	renchérir	1.0
+EDGE	rehausser	remonter	1.0
+EDGE	saillir	servir	1.0
+EDGE	ajuster	bâtir	1.0
+EDGE	rehausser	surhausser	1.0
+EDGE	franchir	percer	1.0
+EDGE	bâtir	échafauder	1.0
+EDGE	grossir	majorer	1.0
+EDGE	enlever	forcer	1.0
+EDGE	porter	relever	1.0
+EDGE	ourdir	échafauder	1.0
+EDGE	faire	servir	1.0
+EDGE	grossir	redoubler	1.0
+EDGE	augmenter	remonter	1.0
+EDGE	augmenter	exhausser	1.0
+EDGE	rehausser	renchérir	1.0
+EDGE	augmenter	charger	1.0
+EDGE	ajuster	encastrer	1.0
+EDGE	mitonner	préparer	1.0
+EDGE	faire	préparer	1.0
+EDGE	atteindre	réussir	1.0
+EDGE	bâtir	lever	1.0
+EDGE	accoupler	combiner	1.0
+EDGE	percer	réussir	1.0
+EDGE	exhausser	surélever	1.0
+EDGE	aller	jouer	1.0
+EDGE	appareiller	préparer	1.0
+EDGE	combiner	unir	1.0
+EDGE	atteindre	percer	1.0
+EDGE	aviver	rehausser	1.0
+EDGE	soulever	surélever	1.0
+EDGE	mijoter	échafauder	1.0
+EDGE	constituer	organiser	1.0
+EDGE	surhausser	surélever	1.0
+EDGE	faire	porter	1.0
+EDGE	relever	renchérir	1.0
+EDGE	créer	soulever	1.0
+EDGE	aller	atteindre	1.0
+EDGE	porter	prendre	1.0
+EDGE	majorer	revaloriser	1.0
+EDGE	baiser	marier	1.0
+EDGE	progresser	revaloriser	1.0
+EDGE	installer	établir	1.0
+EDGE	exciter	lutter	1.0
+EDGE	bâtir	coudre	1.0
+EDGE	affluer	arriver	1.0
+EDGE	assembler	combiner	1.0
+EDGE	accoupler	marier	1.0
+EDGE	accroître	grandir	1.0
+EDGE	enchâsser	incruster	1.0
+EDGE	atteindre	réaliser	1.0
+EDGE	prendre	soulever	1.0
+EDGE	pourvoir	établir	1.0
+EDGE	atteindre	gravir	1.0
+EDGE	charger	porter	1.0
+EDGE	majorer	relever	1.0
+EDGE	rehausser	revaloriser	1.0
+EDGE	échafauder	élever	1.0
+EDGE	lever	relever	1.0
+EDGE	croître	intensifier	1.0
+EDGE	escalader	franchir	1.0
+EDGE	créer	réaliser	1.0
+EDGE	parvenir	progresser	1.0
+EDGE	aller	progresser	1.0
+EDGE	accoupler	assembler	1.0
+EDGE	hisser	soulever	1.0
+EDGE	enlever	soulever	1.0
+EDGE	atteindre	parvenir	1.0
+EDGE	enchatonner	incruster	1.0
+EDGE	ajuster	aller	1.0
+EDGE	relever	revaloriser	1.0
+EDGE	charger	embarquer	1.0
+EDGE	croître	élever	1.0
+EDGE	doubler	franchir	1.0
+EDGE	accoupler	appareiller	1.0
+EDGE	disposer	préparer	1.0
+EDGE	nouer	établir	1.0
+EDGE	embarquer	enlever	1.0
+EDGE	accoupler	couvrir	1.0
+EDGE	dresser	ériger	1.0
+EDGE	enlever	exciter	1.0
+EDGE	aviver	exciter	1.0
+EDGE	disposer	installer	1.0
+EDGE	remonter	édifier	1.0
+EDGE	exhausser	remonter	1.0
+EDGE	remonter	renchérir	1.0
+EDGE	accentuer	aviver	1.0
+EDGE	ascensionner	gravir	1.0
+EDGE	percer	saillir	1.0
+EDGE	enchatonner	enchâsser	1.0
+EDGE	affluer	aller	1.0
+EDGE	accroître	progresser	1.0
+EDGE	renchérir	revaloriser	1.0
+EDGE	créer	jouer	1.0
+EDGE	accentuer	intensifier	1.0
+EDGE	encastrer	enchâsser	1.0
+EDGE	grandir	intensifier	1.0
+EDGE	croître	lever	1.0
+EDGE	accroître	exciter	1.0
+EDGE	lever	édifier	1.0
+EDGE	assembler	unir	1.0
+EDGE	enlever	jouer	1.0
+EDGE	grandir	progresser	1.0
+EDGE	dresser	planter	1.0
+EDGE	croître	exciter	1.0
+EDGE	prendre	relever	1.0
+EDGE	charger	couvrir	1.0
+EDGE	remonter	revaloriser	1.0
+EDGE	accentuer	forcer	1.0
+EDGE	escalader	grimper	1.0
+EDGE	disposer	servir	1.0
+EDGE	élever	ériger	1.0
+EDGE	accroître	croître	1.0
+EDGE	disposer	dresser	1.0
+EDGE	prendre	réussir	1.0
+EDGE	assembler	bâtir	1.0
+EDGE	accroître	redoubler	1.0
+EDGE	constituer	disposer	1.0
+EDGE	enlever	prendre	1.0
+# connected component: 1
+# conversion rate    : 6.43
+# edge reduction     : 60.71
+# compression ratio  : 2.55
+# time since start   : 17.97
+# TOTAL GRAPH METRICS
+# conversion rate  : 6.43
+# edge reduction   : 60.71
+# compression ratio: 2.55
+# total compression time: 18.0
