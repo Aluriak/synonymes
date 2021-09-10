@@ -1,2 +1,2 @@
-all:
-	python main.py
+collect:
+	python collect.py
