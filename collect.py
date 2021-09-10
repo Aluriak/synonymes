@@ -1,4 +1,4 @@
-
+"""Get words synonyms from website"""
 
 import json
 import requests
@@ -69,7 +69,7 @@ def enrich_graph(g: dict, force_user_prompt: bool=False):
     if force_user_prompt or not unexplored_words:
         save_graph(g)
         print('No word to explore. Please provide one.')
-        new_word = input('> ').strip().lower()
+        new_word = canonized(input('> '))
     else:  # select an unexplored word
         new_word = next(iter(unexplored_words))
     assocs, new_words = get_words(new_word, g)

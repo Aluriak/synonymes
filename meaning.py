@@ -4,7 +4,7 @@
 import sys
 import itertools
 from itertools import islice
-from main import load_graph, complete_graph, canonized
+from collect import load_graph, complete_graph, canonized
 from pprint import pprint
 
 g = load_graph()
