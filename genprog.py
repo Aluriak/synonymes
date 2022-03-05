@@ -15,7 +15,7 @@ from collections import defaultdict
 
 import seaborn as sns
 
-from cli import parse_cli, TARGETS
+from cli import run_func_from_cli
 
 
 def get_dataframe(datafile: str, word: str = None) -> pd.DataFrame:
@@ -70,5 +70,5 @@ def run(source: str, datafile: str, word: str):
 
 
 if __name__ == '__main__':
-    g = run_func_from_cli(run, 'truc')
+    g = run_func_from_cli(run, 'rire')
     print('done')
