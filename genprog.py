@@ -15,9 +15,11 @@ from collections import defaultdict
 
 import seaborn as sns
 
+from cli import parse_cli, TARGETS
 
-def get_dataframe(word: str = None) -> pd.DataFrame:
-    g = load_graph()
+
+def get_dataframe(datafile: str, word: str = None) -> pd.DataFrame:
+    g = load_graph(datafile)
     complete_graph(g)
     word = word or canonized((input('word to look at> ') if len(sys.argv) < 2 else sys.argv[1]).replace(' ', ''))
 
@@ -63,4 +65,10 @@ def plot(df: pd.DataFrame, show_plot: bool = False, plot_size: Tuple[int, int] =
 
 
 
-plot(get_dataframe('truc'))
+def run(source: str, datafile: str, word: str):
+    plot(get_dataframe(datafile, word))
+
+
+if __name__ == '__main__':
+    g = run_func_from_cli(run, 'truc')
+    print('done')
