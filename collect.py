@@ -16,6 +16,7 @@ def load_graph(datafile: str) -> dict:
     except FileNotFoundError:
         return {}
 
+
 def save_graph(datafile: str, graph: dict):
     with open(datafile, 'w') as fd:
         graph = {word: sorted(list(graph[word])) for word in sorted(list(graph.keys()))}
@@ -62,6 +63,7 @@ def stats(g, new_def_words:set=set(), new_key_words:set=set()):
     print(f"unexplored: {len(unex)}")
     return unex
 
+
 def complete_graph(graph: dict) -> dict:
     "Return the same graph, but where if K->C, then C->K"
     for word in graph.keys():
@@ -85,7 +87,7 @@ def enrich_graph(source: str, datafile: str, g: dict, force_user_prompt: bool=Fa
         print('\r' + f"#new words={len(new_words): 3d}\t\t#unexplored={len(unexplored_words)}\t\t#def words={len(g)}  ({new_word}:{word})                ", end='', flush=True)
 
 
-def collect_everything_and_save(source: str, datafile: str, force_user_prompt: bool = False):
+def collect_everything_and_save(target: str, source: str, datafile: str, force_user_prompt: bool = False):
     g = load_graph(datafile)
     try:
         while True:

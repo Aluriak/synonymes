@@ -39,11 +39,11 @@ def get_dataframe(datafile: str, word: str = None) -> pd.DataFrame:
     return pd.DataFrame(df)
 
 
-def plot(df: pd.DataFrame, show_plot: bool = False, plot_size: Tuple[int, int] = (10, 5)) -> Iterable[str]:
+def plot(target: str, word: str, df: pd.DataFrame, show_plot: bool = False, plot_size: Tuple[int, int] = (10, 5)) -> Iterable[str]:
     print(df)
 
     def savefig(obj, name, x, y):
-        fname = f"mpl-{name}-{x}-{y}.png"
+        fname = f"out/mpl-{target}-{word}-{name}-{x}-{y}.png"
         obj.savefig(fname, dpi=400)
         print(f"File {fname} written!")
         if show_plot:
@@ -65,8 +65,8 @@ def plot(df: pd.DataFrame, show_plot: bool = False, plot_size: Tuple[int, int] =
 
 
 
-def run(source: str, datafile: str, word: str):
-    plot(get_dataframe(datafile, word))
+def run(target: str, source: str, datafile: str, word: str):
+    return plot(target, word, get_dataframe(datafile, word))
 
 
 if __name__ == '__main__':

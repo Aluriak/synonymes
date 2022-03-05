@@ -17,4 +17,4 @@ def run_func_from_cli(func, *args, **kwargs):
     "Run given func with source and datafile associated with CLI, plus given args"
     cli_args = parse_cli()
     source, datafile = TARGETS[cli_args.target]
-    return func(source, datafile, *args, **kwargs)
+    return func(cli_args.target, source, datafile, *args, **kwargs)
